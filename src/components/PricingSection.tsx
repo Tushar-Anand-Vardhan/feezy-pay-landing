@@ -99,7 +99,7 @@ const PricingSection = () => {
                 </div>
 
                 {/* Features */}
-                <ul className="space-y-3">
+                {/* <ul className="space-y-3">
                   {plan.features.map((feature, featureIndex) => (
                     <li key={featureIndex} className="flex items-center gap-3">
                       <svg 
@@ -113,7 +113,7 @@ const PricingSection = () => {
                       <span className="text-sm">{feature}</span>
                     </li>
                   ))}
-                </ul>
+                </ul> */}
 
                 {/* CTA */}
                 <Button 
