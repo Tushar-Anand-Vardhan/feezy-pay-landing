@@ -11,7 +11,7 @@ const faqs = [
   },
   {
     question: "What if a payment fails?",
-    answer: "Feezy Pay automatically retries failed payments according to your settings and notifies both you and your customer. You can also manually retry payments from your dashboard."
+    answer: "FeezyPay automatically retries failed payments according to your settings and notifies both you and your customer. You can also manually retry payments from your dashboard."
   },
   {
     question: "How quickly can I get started?",
@@ -99,7 +99,7 @@ const FAQSection = () => {
             </a>
             <span className="text-muted-foreground">•</span>
             <a 
-              href="https://wa.me/919876543210"
+              href="https://wa.me/918478902299"
               className="inline-flex items-center gap-2 text-success hover:opacity-80 transition-opacity"
             >
               <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">

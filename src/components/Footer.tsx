@@ -1,3 +1,5 @@
+import feezyLogo from "@/assets/Feezy_logo.png";
+
 const Footer = () => {
   const footerLinks = {
     Product: [
@@ -8,15 +10,11 @@ const Footer = () => {
     ],
     Support: [
       { name: "Help Center", href: "#" },
-      { name: "Contact Us", href: "#" },
-      { name: "API Documentation", href: "#" },
-      { name: "Status", href: "#" }
+      { name: "Contact Us", href: "#" }
     ],
     Company: [
       { name: "About Us", href: "#" },
       { name: "Blog", href: "#" },
-      { name: "Careers", href: "#" },
-      { name: "Press Kit", href: "#" }
     ],
     Legal: [
       { name: "Privacy Policy", href: "#" },
@@ -33,10 +31,8 @@ const Footer = () => {
           {/* Brand section */}
           <div className="lg:col-span-2 space-y-4">
             <div className="flex items-center gap-2">
-              <div className="w-8 h-8 bg-gradient-primary rounded-lg flex items-center justify-center">
-                <span className="text-white font-bold text-lg">F</span>
-              </div>
-              <span className="text-xl font-bold">Feezy Pay</span>
+              <img src={feezyLogo} alt="Feezy Pay Logo" className="h-10 w-auto"/>
+              <span className="text-xl font-bold">FeezyPay</span>
             </div>
             <p className="text-muted-foreground max-w-sm">
               Automate your recurring payments via UPI Autopay on WhatsApp. 
@@ -84,7 +80,7 @@ const Footer = () => {
         {/* Bottom section */}
         <div className="flex flex-col md:flex-row items-center justify-between pt-8 mt-8 border-t border-border">
           <p className="text-muted-foreground text-sm">
-            © 2024 Feezy Pay. All rights reserved.
+            © 2025 FeezyPay. All rights reserved.
           </p>
           <div className="flex items-center gap-6 mt-4 md:mt-0">
             <span className="text-sm text-muted-foreground">Made in India 🇮🇳</span>

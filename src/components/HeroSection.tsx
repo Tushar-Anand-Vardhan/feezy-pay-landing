@@ -22,15 +22,18 @@ const HeroSection = () => {
                 Start Automating.
               </h1>
               <p className="text-lg md:text-xl text-muted-foreground max-w-2xl">
-                Feezy Pay helps small businesses and individuals collect recurring payments 
+                FeezyPay helps small businesses and individuals collect recurring payments 
                 via UPI Autopay on WhatsApp — no apps, no stress.
               </p>
             </div>
             
             <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
-              <Button variant="hero" size="xl" className="group">
+              {/* <Button variant="hero" size="xl" className="group">
                 Start Collecting Payments
                 <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
+              </Button> */}
+              <Button variant="hero" size="xl" className="group">
+                Coming Soon
               </Button>
               <Button variant="outline" size="xl">
                 Watch Demo
@@ -55,7 +58,7 @@ const HeroSection = () => {
             <div className="relative z-10 rounded-2xl overflow-hidden shadow-large">
               <img 
                 src={heroImage} 
-                alt="Feezy Pay automation illustration"
+                alt="FeezyPay automation illustration"
                 className="w-full h-auto object-cover"
               />
             </div>

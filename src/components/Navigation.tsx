@@ -20,7 +20,7 @@ const Navigation = () => {
           {/* Logo */}
           <div className="flex items-center gap-2">
             <img src={feezyLogo} alt="Feezy Pay Logo" className="h-10 w-auto"/>
-            <span className="text-xl font-bold">Feezy</span>
+            <span className="text-xl font-bold">FeezyPay</span>
           </div>
 
           {/* Desktop Navigation */}

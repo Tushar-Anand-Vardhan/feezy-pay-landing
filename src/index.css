@@ -10,13 +10,21 @@
     --background: 0 0% 100%;
     --foreground: 222 47% 11%;
 
-    /* Brand Primary - Purple */
-    --primary: 245 85% 58%;
+    /* Brand Colors - Based on your logo */
+    --primary: 253 56% 57%; /* Purple from logo */
     --primary-foreground: 0 0% 100%;
-    --primary-light: 245 85% 95%;
-    --primary-dark: 245 85% 48%;
+    --primary-light: 253 56% 95%;
+    --primary-dark: 253 56% 47%;
 
-    /* Brand Secondary - Success Green */
+    /* Brand Secondary - Pink from logo */
+    --secondary: 330 75% 65%;
+    --secondary-foreground: 0 0% 100%;
+    
+    /* Brand Accent - Orange from logo */
+    --accent: 15 85% 65%;
+    --accent-foreground: 0 0% 100%;
+
+    /* Success Green */
     --success: 142 71% 45%;
     --success-foreground: 0 0% 100%;
     --success-light: 142 71% 95%;
@@ -36,10 +44,11 @@
     --warning: 38 92% 50%;
     --warning-foreground: 0 0% 100%;
 
-    /* Gradients */
-    --gradient-primary: linear-gradient(135deg, hsl(245 85% 58%), hsl(245 85% 48%));
+    /* Gradients - Inspired by your logo */
+    --gradient-primary: linear-gradient(135deg, hsl(253 56% 57%), hsl(330 75% 65%));
+    --gradient-brand: linear-gradient(135deg, hsl(253 56% 57%), hsl(330 75% 65%), hsl(15 85% 65%));
     --gradient-success: linear-gradient(135deg, hsl(142 71% 45%), hsl(142 71% 35%));
-    --gradient-hero: linear-gradient(135deg, hsl(245 85% 58%), hsl(142 71% 45%));
+    --gradient-hero: linear-gradient(135deg, hsl(253 56% 57%), hsl(330 75% 65%));
     --gradient-subtle: linear-gradient(180deg, hsl(0 0% 100%), hsl(220 13% 98%));
 
     /* Shadows */

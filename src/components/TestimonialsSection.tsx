@@ -1,6 +1,6 @@
 const testimonials = [
   {
-    quote: "Feezy Pay has completely transformed how I collect student fees. No more headaches!",
+    quote: "FeezyPay has completely transformed how I collect student fees. No more headaches!",
     author: "Rajesh Kumar",
     role: "Coaching Center Owner",
     location: "Mumbai",

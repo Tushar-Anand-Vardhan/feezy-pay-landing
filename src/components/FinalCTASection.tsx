@@ -15,7 +15,7 @@ const FinalCTASection = () => {
               Never chase payments again.
             </h2>
             <p className="text-xl md:text-2xl text-white/90 max-w-3xl mx-auto">
-              Automate your collections with Feezy Pay and get back your time.
+              Automate your collections with FeezyPay and get back your time.
             </p>
           </div>
 
@@ -72,7 +72,7 @@ const FinalCTASection = () => {
           {/* Final trust message */}
           <div className="pt-8">
             <p className="text-white/80 text-sm">
-              Join 1,000+ businesses already automating their payments with Feezy Pay
+              Join 1,000+ businesses already automating their payments with FeezyPay
             </p>
           </div>
         </div>

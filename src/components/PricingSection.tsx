@@ -7,15 +7,15 @@ const plans = [
     period: "/month",
     description: "Perfect for small businesses getting started",
     subscribers: "up to 100 subscribers",
-    features: [
-      "WhatsApp notifications",
-      "UPI Autopay setup",
-      "Basic dashboard", 
-      "Email support",
-      "Payment retry logic"
-    ],
+    // features: [
+    //   "WhatsApp notifications",
+    //   "UPI Autopay setup",
+    //   "Basic dashboard", 
+    //   "Email support",
+    //   "Payment retry logic"
+    // ],
     popular: false,
-    cta: "Get Started"
+    cta: "Coming soon" // "Get Started"
   },
   {
     name: "Growth",
@@ -23,16 +23,14 @@ const plans = [
     period: "/month",
     description: "Best for growing businesses",
     subscribers: "up to 500 subscribers",
-    features: [
-      "Everything in Starter",
-      "Advanced analytics",
-      "Custom reminders",
-      "Priority support",
-      "API access",
-      "Multi-user access"
-    ],
+    // features: [
+    //   "Everything in Starter",
+    //   "Advanced analytics",
+    //   "Custom reminders",
+    //   "Priority support"
+    // ],
     popular: true,
-    cta: "Start Growing"
+    cta: "Get in touch"// "Start Growing"
   },
   {
     name: "Enterprise",
@@ -40,16 +38,16 @@ const plans = [
     period: "",
     description: "For large businesses with custom needs",
     subscribers: "unlimited subscribers",
-    features: [
-      "Everything in Growth",
-      "Dedicated account manager", 
-      "Custom integrations",
-      "White-label solution",
-      "SLA guarantees",
-      "Advanced reporting"
-    ],
+    // features: [
+    //   "Everything in Growth",
+    //   "Dedicated account manager", 
+    //   "Custom integrations",
+    //   "White-label solution",
+    //   "SLA guarantees",
+    //   "Advanced reporting"
+    // ],
     popular: false,
-    cta: "Contact Sales"
+    cta: "Coming Soon" // "Contact Sales"
   }
 ];
 

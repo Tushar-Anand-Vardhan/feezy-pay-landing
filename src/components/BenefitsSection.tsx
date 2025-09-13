@@ -39,7 +39,7 @@ const BenefitsSection = () => {
       <div className="container mx-auto px-6">
         <div className="text-center space-y-4 mb-16">
           <h2 className="text-3xl md:text-5xl font-bold">
-            Why Choose <span className="bg-gradient-hero bg-clip-text text-transparent">Feezy Pay</span>
+            Why Choose <span className="bg-gradient-hero bg-clip-text text-transparent">FeezyPay</span>
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
             Built for busy business owners who want to focus on growth, not payment collection

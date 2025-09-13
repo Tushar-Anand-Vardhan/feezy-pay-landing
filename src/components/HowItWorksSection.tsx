@@ -4,7 +4,7 @@ const steps = [
   {
     number: "01",
     title: "Add your subscribers",
-    description: "Upload or enter your customer list in Feezy Pay.",
+    description: "Upload or enter your customer list in FeezyPay.",
     icon: "👥"
   },
   {
@@ -38,7 +38,7 @@ const HowItWorksSection = () => {
           <div className="relative">
             <img 
               src={howItWorksImage} 
-              alt="How Feezy Pay works illustration"
+              alt="How FeezyPay works illustration"
               className="w-full h-auto rounded-2xl shadow-large"
             />
           </div>
