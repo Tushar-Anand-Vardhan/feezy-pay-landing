@@ -10,17 +10,17 @@ const Footer = () => {
     ],
     Support: [
       { name: "Help Center", href: "#" },
-      { name: "Contact Us", href: "#" }
+      { name: "Contact Us", href: "/contact" }
     ],
     Company: [
-      { name: "About Us", href: "#" },
-      { name: "Blog", href: "#" },
+      { name: "About Us", href: "/about" },
+      { name: "Refund", href: "/refund" },
     ],
     Legal: [
-      { name: "Privacy Policy", href: "#" },
-      { name: "Terms of Service", href: "#" },
-      { name: "Security", href: "#" },
-      { name: "Compliance", href: "#" }
+      { name: "Privacy Policy", href: "/privacy" },
+      { name: "Terms of Service", href: "/terms" },
+      { name: "Security", href: "/security" },
+      { name: "Compliance", href: "/compliance" }
     ]
   };
 

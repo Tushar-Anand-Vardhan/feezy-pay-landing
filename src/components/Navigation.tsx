@@ -7,10 +7,10 @@ const Navigation = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const navigationItems = [
-    { name: "How it Works", href: "#how-it-works" },
-    { name: "Use Cases", href: "#use-cases" },
-    { name: "Pricing", href: "#pricing" },
-    { name: "FAQ", href: "#faq" }
+    { name: "How it Works", href: "/#how-it-works" },
+    { name: "Use Cases", href: "/#use-cases" },
+    { name: "Pricing", href: "/#pricing" },
+    { name: "FAQ", href: "/#faq" }
   ];
 
   return (

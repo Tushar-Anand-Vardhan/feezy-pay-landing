@@ -23,7 +23,7 @@ const HeroSection = () => {
               </h1>
               <p className="text-lg md:text-xl text-muted-foreground max-w-2xl">
                 FeezyPay helps small businesses and individuals collect recurring payments 
-                via UPI Autopay on WhatsApp — no apps, no stress.
+                via UPI Autopay on WhatsApp. No apps, no stress.
               </p>
             </div>
             
