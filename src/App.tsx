@@ -4,10 +4,10 @@ import { TooltipProvider } from "@/components/ui/tooltip";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Index from "./pages/Index";
-import Privacy from "./pages/privacy"
+import Privacy from "./pages/Privacy"
 import NotFound from "./pages/NotFound";
-import Refund from "./pages/refund";
-import About from "./pages/about";
+import Refund from "./pages/Refund";
+import About from "./pages/About";
 import Compliance from "./pages/Compliance";
 import Security from "./pages/Security";
 import Terms from "./pages/Terms";
