@@ -38,9 +38,11 @@ const Navigation = () => {
 
           {/* CTA Button */}
           <div className="hidden md:block">
-            <Button variant="default" size="sm">
-              Get Started
-            </Button>
+            <a href="https://app.feezypay.com">
+              <Button variant="default" size="sm">
+                login
+              </Button>
+            </a>
           </div>
 
           {/* Mobile menu button */}
@@ -77,9 +79,11 @@ const Navigation = () => {
                   {item.name}
                 </a>
               ))}
-              <Button variant="default" size="sm" className="w-full mt-4">
-                Get Started
-              </Button>
+              <a href="https://app.feezypay.com">
+                <Button variant="default" size="sm" className="w-full mt-4">
+                  Login
+                </Button>
+              </a>
             </div>
           </div>
         )}
