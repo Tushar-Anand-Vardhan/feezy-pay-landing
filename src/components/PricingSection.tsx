@@ -64,7 +64,7 @@ const PricingSection = () => {
           </p>
         </div>
 
-        <div className="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
+        <div className="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto mb-16">
           {plans.map((plan, index) => (
             <div 
               key={index}
@@ -127,7 +127,7 @@ const PricingSection = () => {
             </div>
           ))}
         </div>
-        <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
+        <p className="text-md text-muted-foreground max-w-3xl mx-auto">
           FeezyPay is a software platform. Payment processing is handled by RBI regulated payment partners.
         </p>
         {/* Money back guarantee */}
