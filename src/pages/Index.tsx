@@ -24,9 +24,9 @@ const Index = () => {
         <VideoSection />
       </section>
       
-      <section id="use-cases">
+      {/* <section id="use-cases">
         <UseCasesSection />
-      </section>
+      </section> */}
       
       <section id="benefits">
         <BenefitsSection />

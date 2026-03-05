@@ -14,12 +14,12 @@ const HeroSection = () => {
           <div className="text-center lg:text-left space-y-8">
             <div className="space-y-4">
               <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold leading-tight">
-                Stop Chasing{" "}
+                Automate Fees.{" "}
                 <span className="bg-gradient-hero bg-clip-text text-transparent">
-                  Payments
+                  Track Collections.
                 </span>
                 <br />
-                Start Automating.
+                  Stay Organized.
               </h1>
               <p className="text-lg md:text-xl text-muted-foreground max-w-2xl">
                 FeezyPay is a fee collection system that automates UPI Autopay mandates and payment tracking.

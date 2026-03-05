@@ -15,7 +15,7 @@ const steps = [
   },
   {
     number: "03",
-    title: "Payments get collected automatically every month",
+    title: "Fees get collected automatically every month",
     description: "No reminders, no delays, just smooth cash flow.",
     icon: "💰"
   }
