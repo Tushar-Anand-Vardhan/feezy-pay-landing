@@ -24,6 +24,10 @@ const faqs = [
   {
     question: "Can I customize payment reminders?",
     answer: "Yes, on our Growth and Enterprise plans, you can customize reminder messages, timing, and frequency. You can also set up automated follow-ups for failed payments."
+  },
+  {
+    question: "Does FeezyPay process payments?",
+    answer: "No. FeezyPay does not process or hold payments. Payments are processed through RBI regulated UPI Autopay infrastructure and trusted payment partners. FeezyPay simply automates mandate creation, payment tracking, and fee management for businesses."
   }
 ];
 

@@ -42,7 +42,7 @@ const UseCasesSection = () => {
             Perfect for <span className="bg-gradient-success bg-clip-text text-transparent">Every Business</span>
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            From small businesses to growing enterprises, Feezy Pay works for everyone
+          If you collect monthly fees, FeezyPay automates the entire process.
           </p>
         </div>
 

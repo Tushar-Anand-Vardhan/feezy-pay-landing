@@ -25,7 +25,7 @@ const FinalCTASection = () => {
               size="xl" 
               className="bg-white text-primary hover:bg-white/90 border-white min-w-64"
             >
-              Start Collecting Payments Today
+              Start Automating Fees Today
             </Button>
             <Button 
               variant="ghost" 

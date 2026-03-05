@@ -22,8 +22,7 @@ const HeroSection = () => {
                 Start Automating.
               </h1>
               <p className="text-lg md:text-xl text-muted-foreground max-w-2xl">
-                FeezyPay helps small businesses and individuals collect recurring payments 
-                via UPI Autopay on WhatsApp. No apps, no stress.
+                FeezyPay is a fee collection system that automates UPI Autopay mandates and payment tracking.
               </p>
             </div>
             

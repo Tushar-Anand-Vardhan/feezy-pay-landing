@@ -127,7 +127,9 @@ const PricingSection = () => {
             </div>
           ))}
         </div>
-
+        <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
+          FeezyPay is a software platform. Payment processing is handled by RBI regulated payment partners.
+        </p>
         {/* Money back guarantee */}
         <div className="text-center mt-12 p-6 bg-success-light rounded-xl">
           <div className="flex items-center justify-center gap-2 text-success mb-2">

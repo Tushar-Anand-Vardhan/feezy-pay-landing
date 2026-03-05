@@ -3,7 +3,7 @@ import { Zap, MessageCircle, Shield, Clock, BarChart3 , ChartNoAxesCombined} fro
 const benefits = [
   {
     icon: Zap,
-    title: "No chasing payments",
+    title: "Stop chasing recurring fees",
     description: "Forget awkward reminders and follow-ups.",
   },
   {
@@ -14,7 +14,7 @@ const benefits = [
   {
     icon: Shield,
     title: "Secure & trusted",
-    description: "Powered by UPI Autopay with bank-grade security.",
+    description: "Built on India's secure UPI Autopay system.",
   },
   {
     icon: Clock, 
@@ -42,7 +42,7 @@ const BenefitsSection = () => {
             Why Choose <span className="bg-gradient-hero bg-clip-text text-transparent">FeezyPay</span>
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            Built for busy business owners who want to focus on growth, not payment collection
+          Built for businesses that collect recurring fees every month
           </p>
         </div>
 

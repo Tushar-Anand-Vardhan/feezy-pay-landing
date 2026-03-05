@@ -9,13 +9,13 @@ const steps = [
   },
   {
     number: "02", 
-    title: "Send UPI Autopay links via WhatsApp",
+    title: "Send UPI Autopay approval requests via WhatsApp",
     description: "Your customers approve once, directly on their phone.",
     icon: "📱"
   },
   {
     number: "03",
-    title: "Get paid automatically every month",
+    title: "Payments get collected automatically every month",
     description: "No reminders, no delays, just smooth cash flow.",
     icon: "💰"
   }
@@ -30,7 +30,7 @@ const HowItWorksSection = () => {
             How It <span className="bg-gradient-primary bg-clip-text text-transparent">Works</span>
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            Get started with automated payments in just three simple steps
+          Start automating recurring fee collection in just three simple steps
           </p>
         </div>
 
