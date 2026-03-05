@@ -31,9 +31,13 @@ const HeroSection = () => {
                 Start Collecting Payments
                 <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
               </Button> */}
-              <Button variant="hero" size="xl" className="group">
-                Coming Soon
-              </Button>
+              <a href="https://wa.me/918478902299?text=Hey%2C%20I%20wanted%20to%20know%20more%20about%20Feezypay."
+                target="_blank"
+                rel="noopener noreferrer">
+                <Button variant="hero" size="xl" className="group">
+                  Get in Touch
+                </Button>
+              </a>
               <Button variant="outline" size="xl">
                 Watch Demo
               </Button>

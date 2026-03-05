@@ -15,7 +15,7 @@ const plans = [
     //   "Payment retry logic"
     // ],
     popular: false,
-    cta: "Coming soon" // "Get Started"
+    cta: "Get in touch" // "Get Started"
   },
   {
     name: "Growth",
@@ -116,13 +116,13 @@ const PricingSection = () => {
                 </ul> */}
 
                 {/* CTA */}
-                <Button 
-                  variant={plan.popular ? "hero" : "outline"} 
-                  size="lg" 
-                  className="w-full"
-                >
+                <a href="https://wa.me/918478902299?text=Hey%2C%20I%20wanted%20to%20know%20more%20about%20Feezypay."
+                target="_blank"
+                rel="noopener noreferrer">
+                <Button variant={plan.popular ? "hero" : "outline"} size="lg" className="w-full">
                   {plan.cta}
                 </Button>
+              </a>
               </div>
             </div>
           ))}
