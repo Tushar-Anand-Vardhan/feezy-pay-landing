@@ -1,10 +1,10 @@
 import { Button } from "@/components/ui/button";
 
 const pricingTiers = [
-  { students: "Up to 50", autoLink: "₹499", autopay: "₹799" },
-  { students: "51–100", autoLink: "₹799", autopay: "₹1,099" },
-  { students: "101–500", autoLink: "₹1,299", autopay: "₹1,599" },
-  { students: "501+", autoLink: "₹1,999", autopay: "₹2,299" },
+  { customers: "Up to 50", autoLink: "₹499", autopay: "₹799" },
+  { customers: "51–100", autoLink: "₹799", autopay: "₹1,099" },
+  { customers: "101–500", autoLink: "₹1,299", autopay: "₹1,599" },
+  { customers: "501+", autoLink: "₹1,999", autopay: "₹2,299" },
 ] as const;
 
 const whatsappHref =
@@ -19,7 +19,7 @@ const PricingSection = () => {
             Simple, <span className="bg-gradient-primary bg-clip-text text-transparent">Transparent</span> Pricing
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            Pick your student slab and choose between Auto Link and UPI Autopay.
+            Pick your customer slab and choose between Auto Link and UPI Autopay.
           </p>
         </div>
 
@@ -30,14 +30,16 @@ const PricingSection = () => {
             <div className="relative p-6 sm:p-8">
               <div className="flex flex-col sm:flex-row sm:items-end sm:justify-between gap-4 mb-6">
                 <div className="space-y-1">
-                  <h3 className="text-2xl md:text-3xl font-bold">Pricing by active students</h3>
+                  <h3 className="text-2xl md:text-3xl font-bold">Pricing by active customers</h3>
                   <p className="text-muted-foreground">
                     Choose your slab. Upgrade to Autopay for recurring mandate automation.
                   </p>
                 </div>
                 <div className="flex items-center gap-2 text-sm">
-                  <span className="px-3 py-1 rounded-full bg-muted text-muted-foreground">Auto Link</span>
-                  <span className="px-3 py-1 rounded-full bg-gradient-primary text-primary-foreground font-semibold">
+                  <span className="px-3 py-1 rounded-full border bg-background text-foreground/80">
+                    Auto Link
+                  </span>
+                  <span className="px-3 py-1 rounded-full border border-primary/30 bg-gradient-subtle text-foreground font-semibold">
                     Autopay
                   </span>
                 </div>
@@ -46,8 +48,8 @@ const PricingSection = () => {
               {/* Desktop table */}
               <div className="hidden md:block">
                 <div className="rounded-xl border bg-background/40 overflow-hidden">
-                  <div className="grid grid-cols-12 text-sm font-semibold text-muted-foreground">
-                    <div className="col-span-5 px-5 py-4">Active students</div>
+                  <div className="grid grid-cols-12 text-sm font-semibold text-muted-foreground bg-background/60">
+                    <div className="col-span-5 px-5 py-4">Active customers</div>
                     <div className="col-span-3 px-5 py-4 text-right">Auto Link</div>
                     <div className="col-span-4 px-5 py-4 text-right">
                       <span className="inline-flex items-center gap-2">
@@ -59,11 +61,11 @@ const PricingSection = () => {
 
                   <div className="divide-y">
                     {pricingTiers.map((tier) => (
-                      <div key={tier.students} className="grid grid-cols-12 items-center">
-                        <div className="col-span-5 px-5 py-5 font-medium">{tier.students}</div>
+                      <div key={tier.customers} className="grid grid-cols-12 items-center">
+                        <div className="col-span-5 px-5 py-5 font-medium">{tier.customers}</div>
                         <div className="col-span-3 px-5 py-5 text-right font-semibold">{tier.autoLink}</div>
                         <div className="col-span-4 px-5 py-5 text-right">
-                          <span className="inline-flex items-center justify-end w-full rounded-lg bg-gradient-subtle border border-primary/30 px-3 py-2 font-bold">
+                          <span className="inline-flex items-center justify-end w-full rounded-lg border border-primary/30 bg-gradient-subtle px-3 py-2 font-bold">
                             {tier.autopay}
                           </span>
                         </div>
@@ -76,10 +78,10 @@ const PricingSection = () => {
               {/* Mobile cards */}
               <div className="md:hidden space-y-4">
                 {pricingTiers.map((tier) => (
-                  <div key={tier.students} className="rounded-xl border bg-background/40 p-5">
+                  <div key={tier.customers} className="rounded-xl border bg-background/40 p-5">
                     <div className="flex items-center justify-between gap-3">
-                      <div className="font-semibold">{tier.students}</div>
-                      <span className="text-xs text-muted-foreground">Active students</span>
+                      <div className="font-semibold">{tier.customers}</div>
+                      <span className="text-xs text-muted-foreground">Active customers</span>
                     </div>
                     <div className="grid grid-cols-2 gap-3 mt-4">
                       <div className="rounded-lg border bg-card p-4">
