@@ -31,8 +31,9 @@ const FinalCTASection = () => {
               variant="ghost" 
               size="xl" 
               className="text-white hover:bg-white/10 min-w-48"
+              asChild
             >
-              Book a Demo
+              <a href="#demo">Book a Demo</a>
             </Button>
           </div>
 

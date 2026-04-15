@@ -1,5 +1,4 @@
 import { Button } from "@/components/ui/button";
-import { ArrowRight } from "lucide-react";
 import heroImage from "@/assets/hero-illustratioin.png";
 
 const HeroSection = () => {
@@ -38,8 +37,8 @@ const HeroSection = () => {
                   Get in Touch
                 </Button>
               </a>
-              <Button variant="outline" size="xl">
-                Watch Demo
+              <Button variant="outline" size="xl" asChild>
+                <a href="#demo">Watch Demo</a>
               </Button>
             </div>
 

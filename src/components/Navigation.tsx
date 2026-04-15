@@ -8,6 +8,7 @@ const Navigation = () => {
 
   const navigationItems = [
     { name: "How it Works", href: "/#how-it-works" },
+    { name: "Demo", href: "/#demo" },
     { name: "Use Cases", href: "/#use-cases" },
     { name: "Pricing", href: "/#pricing" },
     { name: "FAQ", href: "/#faq" }

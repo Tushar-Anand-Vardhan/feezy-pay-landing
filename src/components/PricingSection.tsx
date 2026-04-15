@@ -132,7 +132,7 @@ const PricingSection = () => {
                     Book a demo
                   </Button>
                 </a>
-                <a href="#video-sectioin" className="flex-1">
+                <a href="#demo" className="flex-1">
                   <Button variant="outline" size="lg" className="w-full opacity-80 hover:opacity-100">
                     Watch demo
                   </Button>

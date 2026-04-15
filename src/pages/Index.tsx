@@ -20,7 +20,7 @@ const Index = () => {
       <section id="how-it-works">
         <HowItWorksSection />
       </section>
-      <section id="video-sectioin">
+      <section id="demo" className="scroll-mt-24">
         <VideoSection />
       </section>
       
