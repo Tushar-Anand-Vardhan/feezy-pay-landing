@@ -5,8 +5,8 @@ const Footer = () => {
     Product: [
       { name: "How it Works", href: "#how-it-works" },
       { name: "Demo", href: "#demo" },
+      { name: "Ask Claude", href: "/claude" },
       { name: "Pricing", href: "#pricing" },
-      { name: "Use Cases", href: "#use-cases" },
       { name: "Features", href: "#benefits" }
     ],
     Support: [

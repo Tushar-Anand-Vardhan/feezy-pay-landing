@@ -10,6 +10,14 @@ export default function PrivacyPolicy() {
         <p>Feezy Pay helps small businesses automate recurring payments via UPI Autopay on WhatsApp.</p>
         <p>We collect minimal data. Name, email, and customer details uploaded by you. Payment authorizations are handled securely by Cashfree. Feezy Pay never stores sensitive payment info.</p>
         <p>Your data is used only to process transactions and improve the platform. We never sell or share it with third parties beyond payment partners.</p>
+        <p>
+          If you connect Claude to FeezyPay, Claude receives the fee data you ask for in that chat, for your school only.
+          See the connector privacy page at{" "}
+          <a href="https://mcp.feezypay.com/privacy" className="text-primary underline">
+            mcp.feezypay.com/privacy
+          </a>
+          .
+        </p>
         <p>You may request deletion of your account by emailing <strong>feezypay@gmail.com</strong>.</p>
       </main>
       <Footer />

@@ -28,6 +28,11 @@ const faqs = [
   {
     question: "Does FeezyPay process payments?",
     answer: "No. FeezyPay does not process or hold payments. Payments are processed through RBI regulated UPI Autopay infrastructure and trusted payment partners. FeezyPay simply automates mandate creation, payment tracking, and fee management for businesses."
+  },
+  {
+    question: "Can I ask Claude about my collections?",
+    answer:
+      "Yes. In Claude, add a custom connector named FeezyPay with https://mcp.feezypay.com/mcp, then sign in with your FeezyPay email and password. Claude can read dues, payments, and collections for your school only. It cannot record payments. Step-by-step: feezypay.com/claude"
   }
 ];
 

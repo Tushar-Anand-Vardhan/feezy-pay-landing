@@ -52,6 +52,10 @@ const HeroSection = () => {
                 <div className="w-2 h-2 bg-success rounded-full animate-pulse" />
                 <span className="text-sm text-muted-foreground">WhatsApp Native</span>
               </div>
+              <a href="#claude" className="flex items-center gap-2 hover:text-foreground">
+                <div className="w-2 h-2 bg-success rounded-full animate-pulse" />
+                <span className="text-sm text-muted-foreground">Ask dues in Claude</span>
+              </a>
             </div>
           </div>
 

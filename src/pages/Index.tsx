@@ -9,6 +9,7 @@ import FAQSection from "@/components/FAQSection";
 import FinalCTASection from "@/components/FinalCTASection";
 import Footer from "@/components/Footer";
 import VideoSection from "../components/VideoSection";
+import AskClaudeSection from "@/components/AskClaudeSection";
 
 const Index = () => {
   return (
@@ -30,6 +31,10 @@ const Index = () => {
       
       <section id="benefits">
         <BenefitsSection />
+      </section>
+
+      <section id="claude" className="scroll-mt-24">
+        <AskClaudeSection />
       </section>
       
       {/* <TestimonialsSection /> */}
